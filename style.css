@@ -1,0 +1,45 @@
+
+body{
+ Background-image: 
+url(https://media0.giphy.com/media/1WnDpOIiXZOyzDa3qf/giphy.gif?cid=790b76113bac2319767fa54ff30e3819d09d5db77bf09c07&rid=giphy.gif);
+Background-size: 150px;
+Color: yellow;
+Font-family: American typewriter;
+margin: 20%;
+}
+
+h1 {
+  font-size: 200px;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 80pt;
+
+    text-align: center;
+
+    user-select: none;
+}
